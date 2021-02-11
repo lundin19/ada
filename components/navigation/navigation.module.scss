@@ -1,0 +1,36 @@
+@import '../../styles/tema.scss';
+
+.navBar {
+    width: 100%;
+    background-color: $main-color;
+
+    ul {
+        margin: auto;
+        width: 65%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-items: center;
+        align-items: center;
+        height: 75px;
+
+
+        li {
+            list-style-type: none;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: darken($color: white, $amount: 25)
+            }
+        }
+
+            li:nth-child(3){
+                font-family: $main-font;
+                color:white;
+                font-size: 2.2em;
+            }
+    }
+}

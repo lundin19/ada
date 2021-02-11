@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,WAAW;EACpB,MAAM,EAAE,IAAI;EACZ,kBAAkB,EAAE,IAAI;EACxB,cAAc,EAAE,GAAG;CAQtB;;AAbD,AAMI,WANO,CAMP,CAAC,CAAA;EACG,SAAS,EAAE,GAAG;EACd,eAAe,EAAE,IAAI;EACrB,KAAK,EAAC,KAAK;EACX,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,GAAG;CACf",
+    "sources": [
+        "productNav.module.scss"
+    ],
+    "names": [],
+    "file": "productNav.module.css"
+}

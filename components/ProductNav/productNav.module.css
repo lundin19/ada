@@ -1,0 +1,18 @@
+.productNav {
+  margin-left: 10%;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  height: 20vh;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  vertical-align: top;
+}
+
+.productNav a {
+  direction: rtl;
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 8px;
+}
+/*# sourceMappingURL=productNav.module.css.map */

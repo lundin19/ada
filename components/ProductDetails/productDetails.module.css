@@ -1,0 +1,33 @@
+.product {
+  width: 65%;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: 3fr 1fr;
+      grid-template-columns: 3fr 1fr;
+  grid-gap: 16px;
+  gap: 16px;
+  margin-left: 5%;
+  vertical-align: top;
+}
+
+.product h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product aside div {
+  background-color: whitesmoke;
+  height: 30px;
+}
+
+.product aside div p {
+  padding: 6px;
+}
+/*# sourceMappingURL=productDetails.module.css.map */

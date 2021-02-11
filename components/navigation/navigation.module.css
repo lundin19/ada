@@ -1,0 +1,38 @@
+.navBar {
+  width: 100%;
+  background-color: #688aa5;
+}
+
+.navBar ul {
+  margin: auto;
+  width: 65%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75px;
+}
+
+.navBar ul li {
+  list-style-type: none;
+}
+
+.navBar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navBar ul li a:hover {
+  color: #bfbfbf;
+}
+
+.navBar ul li:nth-child(3) {
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 2.2em;
+}
+/*# sourceMappingURL=navigation.module.css.map */

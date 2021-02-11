@@ -1,0 +1,40 @@
+.productGrid {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  width: 65%;
+  vertical-align: top;
+  margin-left: 5%;
+}
+
+.productGrid div {
+  display: -ms-grid;
+  display: grid;
+  height: 45vh;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.productGrid div img {
+  width: 260px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.productGrid div h3 {
+  font-size: 1rem;
+}
+
+.productGrid div a button {
+  background-color: white;
+  border: solid 1px black;
+  width: 140px;
+  height: 35px;
+}
+/*# sourceMappingURL=productList.module.css.map */
